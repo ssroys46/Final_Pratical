@@ -1,0 +1,76 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.innerStyle img {
+
+    width: 200px;
+}
+
+.innerStyle {
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+header {
+    background-color: #588a5a;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
+
+main {
+    padding: 20px;
+}
+
+#container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    text-align: end;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.meal-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
